@@ -46,7 +46,7 @@ module.exports = async function handler(req, res) {
     for (const m of modelsToTry) {
       let response;
       try {
-        response = await fetch('https://bruno-gpt5.vercel.app/api/chat', {
+        response = await fetch('https://health-cone-backend.vercel.app/api/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
