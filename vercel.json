@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat" },
+    { "source": "/api/stats", "destination": "/api/stats" },
+    { "source": "/features", "destination": "/frontend/features.html" },
+    { "source": "/about", "destination": "/frontend/about.html" },
+    { "source": "/assistant", "destination": "/frontend/assistant.html" },
+    { "source": "/admin", "destination": "/frontend/admin.html" },
+    { "source": "/", "destination": "/frontend/index.html" }
+  ]
+}
